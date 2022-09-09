@@ -16,8 +16,8 @@ Contains the structure of the Database having Triggers, Procedures, etc (which a
 > - searchProduct() function: List of products, using the Product type parameter.
 > - addProduct() function: Add product to the database, using the necessary parameters to introduce in the database.
 
-> **Backoffice:** (Some doubts in the creation process)
-> - BackupBD() function: Creates database backup
+> **Backoffice:**
+> - BackupBD() function: Creates database backup (Some doubts in the creation process)
 
 ### Data to login, after running buypy.sql
 **Username:** pedro@mail.com <br>
