@@ -1,5 +1,4 @@
-# buypy14
+# BuyPy
 
 Backoffice for an online shopping store.
-# BuyPy
-# buypy
+
