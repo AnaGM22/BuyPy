@@ -9,18 +9,17 @@ Contains the structure of the Database having Triggers, Procedures, etc(which ar
 ### Menu section
 > **User:**
 > - searchClient() function: List of all users, without parameters
-> - searchClientID() function: Lists the details of a user ID, with Client ID parameter
+> - searchClientID() function: List the details of a user ID, using the Client ID parameter
 > - searchClientBlock() function: List of users with blocked accounts, without parameters.
 
 > **Product:** (Can't enter the menu for some reason)
-> - searchProduct() function: List of products, with Product type parameter.
-> - addProduct() function: Add product to the database, with the necessary parameters to introduce in the database.
+> - searchProduct() function: List of products, using the Product type parameter.
+> - addProduct() function: Add product to the database, using the necessary parameters to introduce in the database.
 
 > **Backoffice:** (Some doubts in the creation process)
 > - BackupBD() function: Creates database backup
 
 ### Data to login, after running buypy.sql
-
 **Username:** pedro@mail.com <br>
 **Password:** 123abC!
 
