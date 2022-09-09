@@ -229,7 +229,7 @@ def addProduct():
         price = input("Indique o Preço: ")
         vat = input("Indique o IVA: ")
         print()
-        product_info = db.querySearchProduct(productType, qt, price, vat)
+        product_info = db.queryAddProduct(productType, qt, price, vat)
 
         findBOK = 'BOK'
         if findBOK in productType:
