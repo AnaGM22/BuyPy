@@ -124,8 +124,10 @@ def queryAddProduct (ProductType: str, qt: int, price: float, vat: float):
     with connect(**DB_CONN_PARAMS) as connection:
         with connection.cursor() as cursor:
             # Chamar procedure criado na DB
-            cursor.callproc('AddProduct',[ProductType, qt, price, vat])
+            # cursor.callproc('AddProduct',[ProductType, qt, price, vat])
+            cursor.execute('AddProduct',[ProductType, qt, price, vat])
             print("Dados Inseridos")
+            DB_CONN_PARAMS.commit()
             print()         
 #:
 
