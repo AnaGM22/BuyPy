@@ -3,7 +3,7 @@
 Backoffice for an online shopping store.
 
 ## buypy.sql
-Contains the structure of the Database having Triggers, Procedures, etc(which are functional), but also including the Procedures from **Projecto 4 - Loja Online.pdf** lines 3 and 5 (5.1, 5.2, 5.2.1, 5.2.2, 5.2.3, 5.3, 5.3.1, 5.3.2, 5.4 and 5.5)
+Contains the structure of the Database having Triggers, Procedures, etc (which are functional), but also including the Procedures from **Projecto 4 - Loja Online.pdf** lines 3 and 5 (5.1, 5.2, 5.2.1, 5.2.2, 5.2.3, 5.3, 5.3.1, 5.3.2, 5.4 and 5.5)
 
 ## buypy.py
 ### Menu section
